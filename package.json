@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
+    "test:run": "vitest run",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint --fix --ext .ts,.vue src",
@@ -44,6 +45,8 @@
     "vitest": "0.25"
   },
   "dependencies": {
+    "@commitlint/cli": "17.0.2",
+    "@commitlint/config-conventional": "17.0.2",
     "vue": "3.2.37"
   }
 }
