@@ -39,8 +39,10 @@ export default defineConfig({
   // 添加库模式配置
   build: {
     rollupOptions,
-    // cssCodeSplit: true,   // 追加
-    minify: false,
+    cssCodeSplit: true,   // 追加 css代码分割
+    minify: "terser",
+    sourcemap: true, // 输出单独的source文件
+    reportCompressedSize: true, // 生成压缩大小报告
     lib: {
       entry: './src/entry.ts',
       name: 'SmartyUI',
