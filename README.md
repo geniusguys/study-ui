@@ -39,3 +39,15 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 
 test github action  
+
+<a href="https://github.com/geniusguys/study-ui/actions/workflows/main.yml">
+
+<img src="https://github.com/geniusguys/study-ui/actions/workflows/main.yml/badge.svg" alt="CI" style="max-width:100%"/>
+
+</a>
+
+
+
+[![CI](https://github.com/geniusguys/study-ui/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/geniusguys/study-ui/actions/workflows/main.yml)
+
+[![workflows](https://github.com/geniusguys/study-ui/workflows/CI/badge.svg)](https://github.com/geniusguys/study-ui/actions?query=workflow%3ACI)
