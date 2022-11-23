@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>🔨 SmartyUI Demo</h1>
+    <div id="app"></div>
+    <script type="module">
+        import style from "study-vue-ui/dist/assets/entry.cb9ba4f4.css"
+        import { createApp } from "vue/dist/vue.esm-bundler.js";
+        import SmartyUI,{SFCButton,JSXButton,MyButton} from "study-vue-ui/dist/smarty-ui.mjs";
+
+        createApp({
+            template: `
+        <div style="margin-bottom:20px;">
+            <SButton color="blue">主要按钮</SButton>
+            <SButton color="green">绿色按钮</SButton>
+            <SButton color="gray">灰色按钮</SButton>
+            <SButton color="yellow">黄色按钮</SButton>
+            <SButton color="red">红色按钮</SButton>
+        </div>
+        
+        <div style="margin-bottom:20px;">
+            <SButton color="blue"  icon="search">搜索按钮</SButton>
+            <SButton color="green"  icon="edit">编辑按钮</SButton>
+            <SButton color="gray"  icon="check">成功按钮</SButton>
+            <SButton color="yellow"  icon="message">提示按钮</SButton>
+            <SButton color="red" icon="delete">删除按钮</SButton>
+        </div>
+        <div style="margin-bottom:20px;">
+            <SButton color="blue"  icon="search"></SButton>
+            <SButton color="green"  icon="edit"></SButton>
+            <SButton color="gray"  icon="check"></SButton>
+            <SButton color="yellow"  icon="message"></SButton>
+            <SButton color="red"  icon="delete"></SButton>
+        </div>
+    `}).use(SmartyUI).mount('#app')
+
+    </script>
+</body>
+
+</html>
