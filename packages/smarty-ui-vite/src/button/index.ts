@@ -1,4 +1,16 @@
-import Button from "./Button";
+import Button from './Button'
+import { App } from 'vue'
+import 'uno.css'
+// 导出Button组件
+// export default Button ;
 
 // 导出Button组件
-export default Button ;
+export { Button }
+
+// 导出Vue插件
+export default {
+  name: 'SButton',
+  install(app: App) {
+    app.component(Button.name, Button)
+  },
+}

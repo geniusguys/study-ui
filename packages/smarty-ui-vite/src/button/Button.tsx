@@ -1,4 +1,4 @@
-import { defineComponent,PropType,toRefs} from "vue";
+import { defineComponent,PropType} from "vue";
 import "uno.css";
 export type IColor = 'black' | 'gray' | 'red' | 'yellow' | 'green'|'blue'|'indigo'|'purple'|'pink'
 export const props = {
@@ -38,17 +38,3 @@ export default defineComponent({
 });
 
 
-// import { defineComponent, h } from "vue";
-
-// export default defineComponent({
-//   name: "SButton",
-
-//   // template:'<button>MyButton</button>'
-
-//   render() {
-
-//     return h("button", null, "MyButton");
-
-//   },
-
-// });
