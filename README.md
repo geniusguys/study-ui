@@ -25,7 +25,7 @@
 前端工程化演示项目。
 - 基于Vue框架
 - 支持JSX与Vue单文件组件
-- Jest + Vue3 plugins实现单元测试
+- `Jest + Vue3 plugins`实现单元测试
 - Eslint + Prettier + Husky 语法检查
 - 采用Rollup构建
 - Vitepress + Vercel 文档网站搭建
@@ -34,7 +34,7 @@
 ### INSTALL
 ```sh
 npm install study-vue-ui
-```
+``` 
 
 ### LICENSE
 [MIT](https://github.com/geniusguys/study-ui/blob/master/LICENSE)
