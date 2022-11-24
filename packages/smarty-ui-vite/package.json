@@ -20,7 +20,8 @@
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.vue\"",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
@@ -36,6 +37,8 @@
     "@typescript-eslint/parser": "^5.42.1",
     "@vitejs/plugin-vue": "^3.2.0",
     "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vitest/coverage-c8": "^0.25.3",
+    "@vitest/coverage-istanbul": "^0.25.3",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/test-utils": "2.0.2",
     "axios": "^1.1.3",

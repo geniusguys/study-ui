@@ -58,7 +58,11 @@ export const config =  {
       // 支持tsx组件，很关键
       transformMode: {
         web: [/.[tj]sx$/]
-      }
+      },
+      coverage: {
+        provider: "istanbul", // or 'c8',
+        reporter: ["text", "json", "html"],
+      },
     }
   
   }
