@@ -15,7 +15,8 @@
 ![npm](https://img.shields.io/npm/dw/study-vue-ui)
 &nbsp;
 ![GitHub](https://img.shields.io/github/license/geniusguys/study-ui)
-
+&nbsp;
+[![codecov](https://codecov.io/gh/geniusguys/study-ui/branch/master/graph/badge.svg?token=EKR52JI8NW)](https://codecov.io/gh/geniusguys/study-ui)
 
 
 ---
