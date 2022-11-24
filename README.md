@@ -1,53 +1,42 @@
-# study-ui-dev
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+<p align="center">
+<img src="https://www.itbooks.work/tian.png" style="width:100px;" />
+</p>
 
-#### 软件架构
-软件架构说明
+<h1 align="center">Study-Vue-UI</h1>
 
+<p align="center">
+学习的组件库模型
+</p>
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
-
-test github action  
-
-<a href="https://github.com/geniusguys/study-ui/actions/workflows/main.yml">
-
-<img src="https://github.com/geniusguys/study-ui/actions/workflows/main.yml/badge.svg" alt="CI" style="max-width:100%"/>
-
-</a>
+![npm](https://img.shields.io/npm/v/study-vue-ui?color=green) 
+&nbsp; ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/geniusguys/study-ui/CI)
+&nbsp;
+![npm](https://img.shields.io/npm/dw/study-vue-ui)
+&nbsp;
+![GitHub](https://img.shields.io/github/license/geniusguys/study-ui)
 
 
 
-[![CI](https://github.com/geniusguys/study-ui/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/geniusguys/study-ui/actions/workflows/main.yml)
+---
 
-[![workflows](https://github.com/geniusguys/study-ui/workflows/CI/badge.svg)](https://github.com/geniusguys/study-ui/actions?query=workflow%3ACI)
+### Features
+
+前端工程化演示项目。
+- 基于Vue框架
+- 支持JSX与Vue单文件组件
+- Jest + Vue3 plugins实现单元测试
+- Eslint + Prettier + Husky 语法检查
+- 采用Rollup构建
+- Vitepress + Vercel 文档网站搭建
+- 基于Action CI 实现持续集成与交付
+
+### INSTALL
+```sh
+npm install study-vue-ui
+```
+
+### LICENSE
+[MIT](https://github.com/geniusguys/study-ui/blob/master/LICENSE)
+
+Copyright (c) 2022 Genius
