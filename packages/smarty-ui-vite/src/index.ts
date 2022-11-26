@@ -1,11 +1,4 @@
 import { createApp } from 'vue'
-// import "uno.css";
-// import SButton from "./button"
-// import SFCButton from "./SFCButton.vue";
-// import JSXButton from "./JSXButton";
-
-// createApp(JSXButton)
-// .mount("#app");
 import SmartyUI from './entry'
 
 createApp({
